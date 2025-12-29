@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Read This</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>For You</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Background Music -->
+  <iframe
+    src="https://www.youtube.com/embed/M9J6DKJXoKk?autoplay=1&loop=1&playlist=M9J6DKJXoKk"
+    allow="autoplay"
+    style="display:none">
+  </iframe>
 
   <div id="intro" class="center">
     <p class="fade-text">i hope you read this, even if it's too late.</p>
@@ -14,25 +21,12 @@
 
   <div id="letter" class="hidden">
     <div class="paper">
-      <p>
-        I don’t even know if you’ll ever read this.<br><br>
-
-        But if you do, I just want you to know,
-        I still think about you sometimes.<br><br>
-
-        We both tried. We both cared.
-        But the universe just never gave us enough
-        space to become “us.”<br><br>
-
-        I just wonder… if we had met at a different
-        point in life, would the ending have been different?<br><br>
-
-        Anyway, I hope you’re doing okay,
-        even though we’re not in each other’s lives anymore.
-      </p>
+      <!-- TYPEWRITER TEXT GOES HERE -->
+      <p id="letterText"></p>
     </div>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
